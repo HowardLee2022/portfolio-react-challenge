@@ -12,6 +12,8 @@ After cloning git hub Repo. Just need to npm Install all the package and then ru
 The usage of this application is to click on the NavBars to direct you to each section. 
 
 ## Features
+[Deployed Link](https://howardlee2022.github.io/portfolio-react-challenge/)
+![screenshot](./screenshot.png)
 - About me section with a short description of myself
 - Portfolio Section with links to live page and github repo of all the projects
 - Contact section that requires user to input correct email and to fill in the input box
