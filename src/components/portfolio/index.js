@@ -29,7 +29,7 @@ const portfolio = ({name,link,image,live}) => {
 
 
 
-    <div class="col-12  col-lg-4 mb-3">
+    <div class="col-12  col-lg-6 mb-3">
                 <div class="card card-body bg-white ">
                         <h1 class="card-title text-center">{name}</h1>
                         <div class="text-center">

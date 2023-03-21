@@ -2,6 +2,7 @@
     display: flex;
     background-color: #15435e;
     justify-content: space-around;
+    color: white;
 }
 
 .Navbar * {
