@@ -29,24 +29,23 @@ const portfolio = ({name,link,image,live}) => {
 
 
 
-    <div class="card-deck">
-                <div class="card text-center ">
-                    <div class="card-block">
-                        <h1 class="card-title">{name}</h1>
-                        <img src={image} class="card-text">
-                        </img>
-                    </div>
-                    <div class="card-footer">
-                    <Button variant="primary" type="button"
+    <div class="col-12  col-lg-4 mb-3">
+                <div class="card card-body bg-white ">
+                        <h1 class="card-title text-center">{name}</h1>
+                        <div class="text-center">
+                        <img src={image} class="card-text"></img>
+                        </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <Button variant="primary" type="button"
                             onClick={(e) => {
                             e.preventDefault();
                             window.location.href=link;}}>Github
-        </Button>
-        <Button variant="info" type="button"
+                      </Button>
+                    <Button variant="info" type="button"
                             onClick={(e) => {
                             e.preventDefault();
                             window.location.href=live;}}>Live
-        </Button>
+                    </Button>
                 </div>
                 </div>
     </div>

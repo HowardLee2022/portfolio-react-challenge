@@ -26,7 +26,12 @@ live:"https://littlelibrary.herokuapp.com/"
 {name:"Nova",
 link:"https://github.com/BRosencrans/stars-and-planet-info",
 image:"https://raw.githubusercontent.com/BRosencrans/stars-and-planet-info/dev/assets/Screenshots-demos/screenshots/stars-no-picture.png",
-live:"https://brosencrans.github.io/stars-and-planet-info/"}]
+live:"https://brosencrans.github.io/stars-and-planet-info/"},
+{name:"Makin-Moves",
+link:"https://github.com/HowardLee2022/Makin-Moves-fe",
+image:"https://cdn.discordapp.com/attachments/634938875873329183/1087524196239814717/makinmoves.jpg",
+live:"https://howardlee2022.github.io/Makin-Moves-fe/"
+}]
 
     return(
         <div class="container">
@@ -35,6 +40,7 @@ live:"https://brosencrans.github.io/stars-and-planet-info/"}]
             </div>
         </div>
     )
+    
 }
 
 export default portfolio;
